@@ -15,9 +15,9 @@ servo.start(0.0)
 
 for i in range(5):
 	setservo(-90)
-
+	setservo(45)
 	setservo(0)
-
+	setservo(-45)
 	setservo(90)
 
 
