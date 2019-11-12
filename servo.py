@@ -1,7 +1,7 @@
 import time
 import RPi.GPIO as GPIO
 
-setservo(range):
+def setservo(range):
 	if -90<=range<=90:
 		duty=range*(2.4-0.5)/20*100
 		servo.ChangeDutyCycle(duty)
