@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 def setservo(range):
 	if -90<=range<=90:
-		duty=(range+90)*(2.4-0.5)/180/20*100
+		duty=(range+90)*(12.0-2.5)/180
 		servo.ChangeDutyCycle(duty)
 
 
