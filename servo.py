@@ -15,11 +15,12 @@ servo.start(0.0)
 
 for i in range(5):
 	setservo(-90)
+	time.sleep(1.0)
 	setservo(45)
+	time.sleep(1.0)
 	setservo(0)
+	time.sleep(1.0)
 	setservo(-45)
+	time.sleep(1.0)
 	setservo(90)
-
-
-
-
+	time.sleep(1.0)
